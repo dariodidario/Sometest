@@ -131,5 +131,9 @@ public class Rational extends Number implements Serializable, Cloneable
         return ((double) numerator / denominator);
     }
 
+    public int funzioneCheNonFaNiente(){
+    	return 2 + 2;
+    }
+
     static final long serialVersionUID = 1L;
 }
