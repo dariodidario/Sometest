@@ -28,6 +28,9 @@ public class Rational extends Number implements Serializable, Cloneable
     public long numerator;
     public long denominator;
 
+    //added by me
+    public String test;
+
     public Rational(long numerator, long denominator) {
         if(denominator == 0L)
             throw new NumberFormatException("Cannot create a Rational object with zero as the denominator");
@@ -133,6 +136,12 @@ public class Rational extends Number implements Serializable, Cloneable
 
     public int funzioneCheNonFaNiente(){
     	return 2 + 2;
+    }
+
+    //added by me
+    public String testDemo(){
+        this.test = "0";
+        return test;
     }
 
     static final long serialVersionUID = 1L;
