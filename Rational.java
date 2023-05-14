@@ -31,8 +31,6 @@ public class Rational extends Number implements Serializable, Cloneable
     //added by me
     public String test;
 
-    public Boolean demo;
-
     public Rational(long numerator, long denominator) {
         if(denominator == 0L)
             throw new NumberFormatException("Cannot create a Rational object with zero as the denominator");
@@ -144,16 +142,6 @@ public class Rational extends Number implements Serializable, Cloneable
     public String testDemo(){
         this.test = "0";
         return test;
-    }
-
-    public boolean functionDemo(String test){
-        if(test == "0"){
-            this.demo = true;
-        }
-        else{
-            this.demo = false;
-        }
-        return demo;
     }
 
     static final long serialVersionUID = 1L;
