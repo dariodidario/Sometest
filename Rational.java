@@ -144,5 +144,9 @@ public class Rational extends Number implements Serializable, Cloneable
         return test;
     }
 
+    public String gunctionDemo(){
+        return test;
+    }
+
     static final long serialVersionUID = 1L;
 }
