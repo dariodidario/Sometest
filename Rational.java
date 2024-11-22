@@ -84,6 +84,13 @@ public class Rational extends Number implements Serializable, Cloneable
         return new Rational(denominator, numerator).reduce();
     }
 
+    //faccio le modifiche per poi committare
+    public int FunzioneInventataACazzo(int areggiofafreddo){
+        int dottoratonazionale_merda = areggiofafreddo;
+        dottoratonazionale_merda +=1;
+        return dottoratonazionale_merda
+    }
+
     public Rational negate() {
         return new Rational(-numerator, denominator);
     }
