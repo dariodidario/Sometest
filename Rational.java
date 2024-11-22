@@ -68,6 +68,12 @@ public class Rational extends Number implements Serializable, Cloneable
         return multiply(new Rational(scalar, 1L));
     }
 
+    public int ilDottoratoNazionale_e_Bello(boolean verita){
+        if(verita == true){
+            System.out.println("Si hai ragione!")
+        }
+    }
+
     public Rational abs() {
     	return new Rational((numerator < 0L) ? -numerator : numerator, (denominator < 0L) ? +denominator : denominator).reduce();
     }
